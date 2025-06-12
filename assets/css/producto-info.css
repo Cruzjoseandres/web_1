@@ -64,6 +64,7 @@
     color: white;
 }
 .btn-mensaje {
+    width: 100%;
     background: white;
     color: #09B1BA;
     border: 1px solid #09b1ba;
@@ -110,7 +111,10 @@
     font-weight: bold;
 }
 
-
+.botones-accion a {
+   text-decoration: none;
+   width: 100%;
+}
 .btn-seguir {
     background-color: white;
     color: #09B1BA;

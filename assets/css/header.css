@@ -3,9 +3,10 @@ header{
     position: fixed;
     flex-wrap: wrap;
     width: 100%;
-    top: 0;
+    top: 0; 
     left: 0;
     background-color: white;
+    z-index: 1000;
 
 }
 
@@ -84,6 +85,7 @@ label[for="Categoria"]{
 }
 
 .navegador{
+    display: block;
     background-color: white;
 }
 
@@ -116,12 +118,16 @@ label[for="Categoria"]{
     box-sizing: border-box;
     text-decoration: none;
     text-align: center;
-    color: #1b2e2f;
-    text-decoration: none;
-    border: 1px solid #007782;
-    background: #e6fafa;
-    border-radius: 20px ;
+    color: #626f74;
+    background: none;
+    border: none;
+    border-radius: 0%;
+    padding: 10px 0px;
 }
+ .navegador nav ul li:first-child {
+        border-bottom:1px solid #007782;
+        width: 100%;
+    }
 
 
 
@@ -185,14 +191,6 @@ label[for="Categoria"]{
         width: 100%;
     }
 
-    .navegador nav ul li a {
-        border-radius: 0%;
-        border:none;
-        background: none;
-        color: #626f74;
-        padding: 10px 20px;
-        
-    }
 }
 
 @media (min-width: 992px) {
