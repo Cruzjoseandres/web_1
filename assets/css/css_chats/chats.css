@@ -85,11 +85,33 @@
  .chat-listas {
         height: 65vh;
     }
+     .chat-info .nombre {
+        font-size: 20px;
+    }
+    
+    .chat-info .mensaje {
+        font-size: 15px;
+    }
+    
+    .hora {
+        font-size: 14px;
+    }
 
 }
 
 @media (min-width: 992px) {
     .chat-listas {
         height: 70vh;
+    }
+    .chat-info .nombre {
+        font-size: 25px;
+    }
+    
+    .chat-info .mensaje {
+        font-size: 20px;
+    }
+    
+    .hora {
+        font-size: 19px;
     }
 }

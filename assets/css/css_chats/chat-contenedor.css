@@ -157,6 +157,16 @@
     .recibido, .enviado, .message {
         max-width: 85%;
     }
+
+    .recibido .mensaje, .enviado .mensaje, .message .mensaje {
+        font-size: 20px;
+        padding: 12px 14px;
+        line-height: 1.4;
+    }
+    .mensaje-hora {
+        font-size: 15px;
+        margin: 4px 5px 0 0;
+    }
 }
 @media (min-width: 992px) {
     .chat-contenedor {
@@ -165,5 +175,14 @@
     
     .recibido, .enviado, .message {
         max-width: 85%;
+    }
+
+    .recibido .mensaje, .enviado .mensaje, .message .mensaje {
+        font-size: 25px;
+        padding: 13px 16px;
+    }
+    
+    .mensaje-hora {
+        font-size: 20px;
     }
 }
